@@ -1,0 +1,17 @@
+{
+  "name": "demo-aws-cdk-asset-path-bug",
+  "version": "1.0.0",
+  "description": "A repo to demonstrate a bug introduced in v1.61.0 of aws-cdk",
+  "scripts": {
+    "build": "cdk synth --no-staging > template.yaml"
+  },
+  "author": "Logan Price",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@aws-cdk/aws-lambda-nodejs": "1.61.0",
+    "aws-cdk": "1.61.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.61.0"
+  }
+}
